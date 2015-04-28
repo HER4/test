@@ -1,6 +1,10 @@
 var test = true;
 
-function fss(a,b,c,d,e){
-	this.a = a;
+function fss(a,b,c,d,e,f,g){
+	this.a = f + a;
 	this.b = b;
+	
+	if(d){
+		alert(45);
+	}
 }
