@@ -1,0 +1,6 @@
+var test = true;
+
+function fss(a,b,c,d,e){
+	this.a = a;
+	this.b = b;
+}
